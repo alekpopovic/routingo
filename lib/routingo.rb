@@ -1,5 +1,6 @@
 require "routingo/version"
 
 module Routingo
-  # Your code goes here...
+  class Engine < ::Rails::Engine
+  end
 end
