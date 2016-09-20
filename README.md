@@ -1,5 +1,7 @@
 # Routingo
 
+[![Gem Version](https://badge.fury.io/rb/routingo.svg)](https://badge.fury.io/rb/routingo)
+
 Gem that split routes.rb into smaller parts.
 
 ## Installation
