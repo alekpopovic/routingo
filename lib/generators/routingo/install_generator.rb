@@ -1,3 +1,4 @@
+require 'rails/generators'
 module Routingo
   module Generators
     class Install < Rails::Generators::Base
