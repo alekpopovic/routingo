@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["web.guru.serbia@gmail.com"]
 
   spec.summary       = %q{Routingo}
-  spec.description   = %q{Gem that split routes.rb into smaller parts.}
+  spec.description   = %q{Gem that split routes.rb into smaller parts}
   spec.homepage      = "https://github.com/popac/routingo"
   spec.license       = "MIT"
 
