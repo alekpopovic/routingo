@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Gem that split routes.rb into smaller parts}
   spec.homepage      = "https://github.com/popac/routingo"
   spec.license       = "MIT"
+  spec.post_install_message = "Thanks for installing Routingo!"
 
   if spec.respond_to?(:metadata)
     spec.metadata['allowed_push_host'] = "https://rubygems.org"
