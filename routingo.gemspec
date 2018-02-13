@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "routingo"
   spec.version       = Routingo::VERSION
   spec.authors       = ["popac"]
-  spec.email         = ["web.guru.serbia@gmail.com"]
+  spec.email         = ["aleksandar.popovic.popac@gmail.com"]
 
   spec.summary       = %q{Routingo}
   spec.description   = %q{Gem that split routes.rb into smaller parts}
@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "rails", ">= 5"
+  spec.add_dependency "rails"
 
   spec.add_development_dependency 'bundler', '~> 1.13', '>= 1.13.1'
   spec.add_development_dependency 'rake', '~> 11.3'
