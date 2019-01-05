@@ -6,7 +6,7 @@ require 'routingo/version'
 Gem::Specification.new do |spec|
   spec.name          = "routingo"
   spec.version       = Routingo::VERSION
-  spec.authors       = ["popac"]
+  spec.authors       = ["popicic"]
   spec.email         = ["aleksandar.popovic.popac@gmail.com"]
 
   spec.summary       = %q{Routingo}
