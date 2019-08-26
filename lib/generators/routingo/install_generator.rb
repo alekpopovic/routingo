@@ -11,7 +11,7 @@ module Routingo
         paths = 'config/routes.rb'
         joins = 'config/routes/*.rb'
         insert_into_file 'config/application.rb', after: "#{klazz}\n" do
-          "config.paths[#{paths}].concat(Dir[Rails.root.join(#{joins})])\n"
+          "config.paths['#{paths}'].concat(Dir[Rails.root.join('#{joins}')])\n"
         end
       end
     end
