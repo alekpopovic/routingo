@@ -1,11 +1,17 @@
+# frozen_string_literal: true
+
 require 'rails/generators'
 
 module Routingo
   module Generators
+    # Install Class
     class Install < Rails::Generators::Base
       def insert_path
-        insert_into_file "config/application.rb", :after => "class Application < Rails::Application\n" do
-          "config.paths['config/routes.rb'].concat(Dir[Rails.root.join('config/routes/*.rb')])\n"
+        klazz = 'class Application < Rails::Application'
+        paths = 'config/routes.rb'
+        joins = 'config/routes/*.rb'
+        insert_into_file 'config/application.rb', after: "#{klazz}\n" do
+          "config.paths[#{paths}].concat(Dir[Rails.root.join(#{joins})])\n"
         end
       end
     end

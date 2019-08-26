@@ -1,4 +1,6 @@
+# frozen_string_literal: true
+
 require 'bundler/setup'
-require "rails"
+require 'rails'
 Bundler.setup
 require 'routingo'
