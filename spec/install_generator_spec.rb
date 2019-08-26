@@ -3,7 +3,7 @@
 require 'spec_helper'
 require_relative '../../routingo/lib/generators/routingo/install_generator.rb'
 
-describe 'Routingo Install' do
+describe Routingo::Generators::Install do
   let(:path) { 'config/routes.rb' }
   let(:routes) { 'config/routes/*.rb' }
 
