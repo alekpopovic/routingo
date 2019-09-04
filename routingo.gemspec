@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.license = 'MIT'
   spec.post_install_message = 'Thanks for installing Routingo!'
 
-  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
+  # spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.files = `git ls-files -z`.split("\x0")
                                 .reject { |f| f.match(%r{^(spec)/}) }
